@@ -3,6 +3,16 @@ entries:
   nginx-with-version-page:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-07T06:11:30.729547594Z"
+    description: A Helm chart for Kubernetes
+    digest: 9c6cd00946276d2a8289f5202fafe10009b42db6ba0ff86bbf934ec0baa8c75a
+    name: nginx-with-version-page
+    type: application
+    urls:
+    - https://github.com/gacerioni/nginx_helm_with_version_page/releases/download/nginx-with-version-page-0.5.0/nginx-with-version-page-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-08-07T05:24:07.640105541Z"
     description: A Helm chart for Kubernetes
     digest: 9001788cad0dad584eb72f7b451b21e6328f69ec4bf3abb6ae7c428a1b58274d
