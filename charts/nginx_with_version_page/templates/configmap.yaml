@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-home
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <body>
+
+    <h1>My First Heading</h1>
+
+    <p>My first paragraph.</p>
+
+    </body>
+    </html>
