@@ -6,4 +6,4 @@
 createNamespace: true
 namespace: ${infra.kubernetes.namespace}
 
-replicaCount: 2
+replicaCount: 3
