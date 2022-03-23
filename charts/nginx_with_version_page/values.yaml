@@ -6,13 +6,13 @@
 createNamespace: true
 namespace: ${infra.kubernetes.namespace}
 
-replicaCount: 1
+replicaCount: 10
 
 image:
-  repository: nginxa
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "1.19.0"
 
 imagePullSecrets: []
 nameOverride: ""

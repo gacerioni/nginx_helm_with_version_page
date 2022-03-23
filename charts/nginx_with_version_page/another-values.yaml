@@ -4,6 +4,6 @@
 
 # Gabs Stuff
 createNamespace: true
-namespace: ${infra.kubernetes.namespace}
+namespace: ${infra.kubernetes.namespace}-override
 
 replicaCount: 3
