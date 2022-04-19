@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 # Gabs Stuff
-createNamespace: true
+createNamespace: false
 namespace: ${infra.kubernetes.namespace}
 
 replicaCount: 10
